@@ -7,6 +7,7 @@ def main():
     print("Status:", r.status_code)
 
     print(r.url)
+    # text has the html and any text returned
     # print(r.text)
 
     f = open("./page.html", "w+")
