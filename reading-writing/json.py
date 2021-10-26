@@ -19,6 +19,7 @@ def main():
 
     old_file.seek(0)
     old_file.write(json.dumps(data))
+    old_file.close()
 
 
 if __name__ == "__main__":
