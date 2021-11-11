@@ -16,8 +16,6 @@ def start_search():
     r = requests.get("https://www.bing.com/images/search", params=params)
 
     soup = BeautifulSoup(r.text, "html.parser")
-    # print(soup)
-
     links = soup.findAll("img", {"class": "mimg"})
 
     count = 1
