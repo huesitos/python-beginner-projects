@@ -1,5 +1,4 @@
 import random
-import re
 from classes.game import Person, BColors
 from classes.magic import Spell
 from classes.inventory import Item
@@ -49,8 +48,6 @@ players = [player1, player2, player3]
 enemies = [enemy1, enemy2, enemy3]
 
 running = True
-i = 0
-
 enemy_attack_text = BColors.FAIL + BColors.BOLD + "AN ENEMY ATTACKS!" + BColors.END_C
 
 
